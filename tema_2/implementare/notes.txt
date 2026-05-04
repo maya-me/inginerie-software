@@ -1,0 +1,25 @@
+We can have multiple system (my system related to X1 app, Sobo's system related to X2 app, etc)
+and multiple sensors. 
+
+
+A system can subscribe to a sensor (after eventually paying a monthly fee) (to do implement sensor owner)
+and at the same time sensor adds this system into it's database - so when he will get new data it will push
+the weather data to all of his systems.
+
+Sensors owner. (multiple owners - companies / individual people with a couple of sensors installed in they backyard)
+
+
+
+
+
+!A system can be implemented in different way (different design, different type of sending data) - but all the systems need
+to have the same based functionalities. Same as the sensor.
+
+The API provides IApp and ISensor. All the Apps implement IApp and can subscribe to different sensors.
+
+App (implements IApp)
+
+
+app vrea sa cumpere un senzor, tre sa mearga la api si sai ceara access,
+api ii dai access
+
